@@ -2096,29 +2096,36 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/header-bg.jpg");
+		/*background-color: white;*/
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
 		color: #fff;
+		/*color: black;*/
 		text-align: center;
-		padding: 7.5em 0 2em 0;
+		padding: 0 0 2em 0;
 		cursor: default;
 	}
 
 		#header:before {
 			content: '';
-			display: inline-block;
-			vertical-align: middle;
-			height: 100%;
-		}
+	     position: absolute;
+	     width: 100%; height:100%;
+	     top:0; left:0;
+	     background:rgba(0,0,0,0.6);
+	     opacity: 1;
+	     transition: all 1s;
+	     -webkit-transition: all 1s;
+		 }
 
 		#header .inner {
 			position: relative;
 			z-index: 1;
 			margin: 0;
 			display: inline-block;
-			vertical-align: middle;
+			vertical-align: top;
+			margin-top: 10%;
 		}
 
 		#header header {
@@ -2177,7 +2184,8 @@
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			/*pre-solid color*/
+			background: black;
 			display: block;
 			position: absolute;
 			left: 0;

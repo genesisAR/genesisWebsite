@@ -6,11 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Helios by HTML5 UP</title>
+		<title>Genesis Launchpad</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/video.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
@@ -22,17 +23,20 @@
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><a href="index.html" id="logo">Helios</a></h1>
-								<hr />
-								<p>Another fine freebie by HTML5 UP</p>
+								<h1><a href="index.html" id="logo">Genesis</a></h1>
+								<!-- <hr /> -->
+								<br />
+								<p>Augmented Reality Gaming the right way</p>
 							</header>
 							<footer>
-								<a href="#banner" class="button circled scrolly">Start</a>
+								<!-- <a href="#banner" class="button circled scrolly">Start</a> -->
+								<?php include_once "video.php"; ?>
+
 							</footer>
 						</div>
 
 					<!-- Nav -->
-						<nav id="nav">
+						<!-- <nav id="nav">
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li>
@@ -57,7 +61,7 @@
 								<li><a href="right-sidebar.html">Right Sidebar</a></li>
 								<li><a href="no-sidebar.html">No Sidebar</a></li>
 							</ul>
-						</nav>
+						</nav> -->
 
 				</div>
 
@@ -383,6 +387,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/video.js"></script>
 
 	</body>
 </html>
