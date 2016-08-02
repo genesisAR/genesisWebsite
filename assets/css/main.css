@@ -2092,6 +2092,11 @@
 			padding-top: 0;
 		}
 
+/* Social Media Icons */
+#header .fb-share-button {
+	margin-top: 50px;
+}
+
 /* Header */
 
 	#header {

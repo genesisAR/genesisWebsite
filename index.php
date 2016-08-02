@@ -15,6 +15,9 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
+
+		<?php include_once "facebookSDK.php"; ?>
+
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -31,6 +34,8 @@
 							<footer>
 								<!-- <a href="#banner" class="button circled scrolly">Start</a> -->
 								<?php include_once "video.php"; ?>
+
+								<div class="fb-share-button" data-href="http://genesisaugmented.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgenesisaugmented.com%2F&amp;src=sdkpreparse">Share</a></div>
 
 							</footer>
 						</div>
