@@ -50,6 +50,8 @@
 											<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgenesisaugmented.com%2F&amp;src=sdkpreparse">Share</a>
 							  </div>
 
+								<div class="fb-send" data-href="http://genesisaugmented.com" data-size="large"></div>
+
 							</footer>
 						</div>
 
