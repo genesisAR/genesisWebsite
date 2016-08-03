@@ -54,46 +54,17 @@
 
 							</footer>
 						</div>
-
-					<!-- Nav -->
-						<!-- <nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Dropdown</a>
-									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li>
-											<a href="#">And a submenu &hellip;</a>
-											<ul>
-												<li><a href="#">Lorem ipsum dolor</a></li>
-												<li><a href="#">Phasellus consequat</a></li>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam dolore nisl</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Veroeros feugiat</a></li>
-									</ul>
-								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-							</ul>
-						</nav> -->
-
 				</div>
 
 			<!-- Banner -->
-			<section id="banner">
+			<!-- <section id="banner">
 				<header>
 					<h2>Welcome to the next frontier in <strong>Augmented Reality</strong>.</h2>
 					<p>
 						Experience the full extent of AR with Genesis <br /> Plan your character lineup, then use strategy and skill to crush your opponent.
 					</p>
 				</header>
-			</section>
+			</section> -->
 
 		  <!-- Second Panel -->
 
