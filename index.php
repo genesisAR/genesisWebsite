@@ -101,134 +101,29 @@
 
 				<div class="container">
 					<div class="row 200%">
-						<div class="4u 12u(mobile)" id="sidebar">
+						<div class="5u 12u(mobile)" id="sidebar">
 							<hr class="first" />
 							<section>
-								<header>
-									<h3><a href="#">Accumsan sed penatibus</a></h3>
-								</header>
-								<p>
-									Dolor sed fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis  tellus ante diam nec penatibus dolor cras
-									magna tempus feugiat veroeros.
-								</p>
-								<footer>
-									<a href="#" class="button">Learn More</a>
-								</footer>
-							</section>
-							<hr />
-							<section>
-								<header>
-									<h3><a href="#">Sed lorem etiam consequat</a></h3>
-								</header>
-								<p>
-									Tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
-								<div class="row 50%">
-									<div class="4u">
-										<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
-									</div>
-									<div class="8u">
-										<h4>Nibh sed cubilia</h4>
-										<p>
-											Amet nullam fringilla nibh nulla convallis tique ante proin.
-										</p>
-									</div>
-								</div>
-								<div class="row 50%">
-									<div class="4u">
-										<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-									</div>
-									<div class="8u">
-										<h4>Proin sed adipiscing</h4>
-										<p>
-											Amet nullam fringilla nibh nulla convallis tique ante proin.
-										</p>
-									</div>
-								</div>
-								<div class="row 50%">
-									<div class="4u">
-										<a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
-									</div>
-									<div class="8u">
-										<h4>Lorem feugiat magna</h4>
-										<p>
-											Amet nullam fringilla nibh nulla convallis tique ante proin.
-										</p>
-									</div>
-								</div>
-								<div class="row 50%">
-									<div class="4u">
-										<a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
-									</div>
-									<div class="8u">
-										<h4>Sed tempus fringilla</h4>
-										<p>
-											Amet nullam fringilla nibh nulla convallis tique ante proin.
-										</p>
-									</div>
-								</div>
-								<div class="row 50% no-collapse">
-									<div class="4u">
-										<a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
-									</div>
-									<div class="8u">
-										<h4>Malesuada fermentum</h4>
-										<p>
-											Amet nullam fringilla nibh nulla convallis tique ante proin.
-										</p>
-									</div>
-								</div>
-								<footer>
+								<a href="#" class="image fit" style="padding-top: 20px;"><img src="images/gifs/b-rex.gif" alt="" /></a>
+								<!-- <footer>
 									<a href="#" class="button">Magna Adipiscing</a>
-								</footer>
+								</footer> -->
 							</section>
 						</div>
-						<div class="8u 12u(mobile) important(mobile)" id="content">
+						<div class="7u 12u(mobile) important(mobile)" id="content">
 							<article id="main">
 								<header>
-									<h2><a href="#">Left Sidebar</a></h2>
+									<h2>REQUEST LAUNCH NOTIFICATION BELOW TO RECIEVE UPTO 60% OFF</h2>
 									<p>
-										Morbi convallis lectus malesuada sed fermentum dolore amet
+										Countdown
 									</p>
 								</header>
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
 								<p>
-									Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
-									posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
-									lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum
-									consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue
-									interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia
-									natoque aenean scelerisque vel lacinia mollis quam sodales congue.
+									Recieve your Genesis Early Launch Notification with One-Click Signup. <br />
+									Simply enter your email, and press 'Join Now'. <br /><br />
+									With the early launch email, you will be the first to know when we launch &bull; save <br />
+									up to 60% off the future retail price. <br />
 								</p>
-								<section>
-									<header>
-										<h3>Ultrices tempor sagittis nisl</h3>
-									</header>
-									<p>
-										Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-										at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-										feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-										fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-										egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
-									</p>
-									<p>
-										Eleifend auctor turpis magnis sed porta nisl pretium. Aenean suspendisse nulla eget sed etiam parturient
-										orci cursus nibh. Quisque eu nec neque felis laoreet diam morbi egestas. Dignissim cras rutrum consectetur
-										ut penatibus fermentum nibh erat malesuada varius.
-									</p>
-								</section>
-								<section>
-									<header>
-										<h3>Augue euismod feugiat tempus</h3>
-									</header>
-									<p>
-										Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-										feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-										ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante
-										egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
-									</p>
-								</section>
 							</article>
 						</div>
 					</div>
