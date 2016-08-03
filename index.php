@@ -9,6 +9,14 @@
 		<title>Genesis Launchpad</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- OpenGraph Data -->
+		<meta property="og:url" content="http://genesisaugmented.com" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Genesis Augmented" />
+		<meta property="og:description" content="Calling all gamers! Introducting Genesis Augmented, a seamless combination of the latest augmented reality technology with hardcore battle systems. Who will emerge victorious? You decide." />
+		<meta property="og:image" content="http://genesisaugmented.com/images/header-bg.jpg" />
+		<meta property="fb:app_id" content="1622234504755688" />
+
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/video.css" />
@@ -35,7 +43,12 @@
 								<!-- <a href="#banner" class="button circled scrolly">Start</a> -->
 								<?php include_once "video.php"; ?>
 
-								<div class="fb-share-button" data-href="http://genesisaugmented.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgenesisaugmented.com%2F&amp;src=sdkpreparse">Share</a></div>
+								<div class="fb-share-button" data-href="http://genesisaugmented.com"
+										data-layout="button"
+										data-size="large"
+										data-mobile-iframe="true">
+											<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgenesisaugmented.com%2F&amp;src=sdkpreparse">Share</a>
+							  </div>
 
 							</footer>
 						</div>
