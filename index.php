@@ -22,6 +22,7 @@
 		<link rel="stylesheet" href="assets/css/video.css" />
 		<link rel="stylesheet" href="assets/css/countdown.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<?php include_once "analytics.php"; ?>
 	</head>
 	<body class="homepage">
 
