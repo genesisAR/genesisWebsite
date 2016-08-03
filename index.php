@@ -121,9 +121,12 @@
 								<p>
 									Recieve your Genesis Early Launch Notification with One-Click Signup. <br />
 									Simply enter your email, and press 'Join Now'. <br /><br />
-									With the early launch email, you will be the first to know when we launch &bull; save <br />
+									With the early launch email, you will be the first to know when we launch &amp; save <br />
 									up to 60% off the future retail price. <br />
 								</p>
+
+								<?php include_once 'signup.php'; ?>
+
 							</article>
 						</div>
 					</div>
