@@ -20,6 +20,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/video.css" />
+		<link rel="stylesheet" href="assets/css/countdown.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
@@ -86,7 +87,7 @@
 								<header>
 									<h2>REQUEST LAUNCH NOTIFICATION BELOW TO RECIEVE UPTO 60% OFF</h2>
 									<p>
-										Countdown
+										<div id="countdown" align="center"></div>
 									</p>
 								</header>
 								<p>
@@ -147,6 +148,7 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/video.js"></script>
+			<script src="assets/js/countdown.js"></script>
 
 	</body>
 </html>
