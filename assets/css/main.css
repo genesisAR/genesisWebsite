@@ -1,11 +1,5 @@
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,400);
 @import url("font-awesome.min.css");
-
-/*
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Reset */
 
@@ -1555,8 +1549,9 @@
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
+		/*font-family: 'Source Sans Pro', sans-serif;*/
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
 	}
 
 		body.is-loading *, body.is-loading *:after, body.is-loading *:before {
@@ -1573,12 +1568,13 @@
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		/*font-family: 'Source Sans Pro', sans-serif;*/
+		font-family: 'Raleway', sans-serif;
 		font-weight: 300;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
+		font-weight: 200;
 		color: #483949;
 		line-height: 1.25em;
 	}
@@ -1594,7 +1590,7 @@
 	}
 
 	h2 {
-		font-size: 2.85em;
+		font-size: 2.25em;
 	}
 
 	h3 {
@@ -2117,12 +2113,14 @@
 		cursor: default;
 	}
 
+		/*Dark Overlay*/
+
 		#header:before {
 			content: '';
 	     position: absolute;
 	     width: 100%; height:100%;
 	     top:0; left:0;
-	     background:rgba(0,0,0,0.6);
+	     background:rgba(0,0,0,0.5);
 	     opacity: 1;
 	     transition: all 1s;
 	     -webkit-transition: all 1s;
@@ -2607,6 +2605,7 @@
 			}
 
 				#header .inner {
+					padding-top: 3em;
 					padding-left: 2em;
 					padding-right: 2em;
 				}
@@ -2634,6 +2633,10 @@
 	@media screen and (max-width: 840px) {
 
 		/* Basic */
+
+		#header .inner {
+			padding-top: 5em;
+		}
 
 			body, input, textarea, select {
 				font-size: 13pt;
@@ -2718,6 +2721,10 @@
 				font-size: 1.25em;
 			}
 
+			#content p {
+				text-align: center;
+			}
+
 		/* Image */
 
 			.image.featured {
@@ -2787,7 +2794,7 @@
 
 		/* Off-Canvas Navigation */
 
-			#page-wrapper {
+			/*#page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2957,7 +2964,7 @@
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-			}
+			}*/
 
 		/* Wrapper */
 
@@ -2969,11 +2976,12 @@
 
 			#header {
 				background-attachment: scroll;
-				padding: 2.5em 0 0 0;
+				/*padding: 2.5em 0 0 0;*/
+				line-height: 2em;
 			}
 
 				#header .inner {
-					padding-top: 1.5em;
+					padding-top: 0.6em;
 					padding-left: 1em;
 					padding-right: 1em;
 				}
@@ -2993,13 +3001,13 @@
 
 			body.homepage #header {
 				min-height: 0;
-				padding: 5.5em 0 5em 0;
+				/*padding: 5.5em 0 5em 0;*/
 				height: auto;
 			}
 
-				body.homepage #header:before {
+				/*body.homepage #header:before {
 					display: none;
-				}
+				}*/
 
 				body.homepage #header h1 {
 					font-size: 2.5em;
@@ -3007,9 +3015,9 @@
 
 		/* Nav */
 
-			#nav {
+			/*#nav {
 				display: none;
-			}
+			}*/
 
 		/* Banner */
 

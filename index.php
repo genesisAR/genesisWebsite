@@ -35,10 +35,10 @@
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><a href="index.html" id="logo">Genesis</a></h1>
+								<h1 style="font-size: 2.8em"><a href="index.html" id="logo">Augmented Reality Gaming the right way</a></h1>
 								<!-- <hr /> -->
 								<br />
-								<p>Augmented Reality Gaming the right way</p>
+								<p style="font-size: 0.8em; font-weight: 400; text-transform: uppercase">Experience the full extent of AR with Genesis - Plan your character lineup, then use strategy and skill to crush your opponent!</p>
 							</header>
 							<footer>
 								<!-- <a href="#banner" class="button circled scrolly">Start</a> -->
@@ -55,6 +55,13 @@
 
 							</footer>
 						</div>
+
+						<!-- <nav id="nav">
+							<ul>
+								<li><img src="images/logo.png" style="width: 300px; height: 70px; margin-top: -25px;"></li>
+							</ul>
+						</nav> -->
+
 				</div>
 
 			<!-- Banner -->
@@ -73,8 +80,8 @@
 
 				<div class="container">
 					<div class="row 200%">
-						<div class="5u 12u(mobile)" id="sidebar">
-							<hr class="first" />
+						<div class="5u 12u(mobile) important(mobile)" id="sidebar">
+							<!-- <hr class="first" /> -->
 							<section>
 								<a href="#" class="image fit" style="padding-top: 20px;"><img src="images/gifs/b-rex.gif" alt="" /></a>
 								<!-- <footer>
@@ -82,7 +89,7 @@
 								</footer> -->
 							</section>
 						</div>
-						<div class="7u 12u(mobile) important(mobile)" id="content">
+						<div class="7u 12u(mobile)" id="content">
 							<article id="main">
 								<header>
 									<h2>REQUEST LAUNCH NOTIFICATION BELOW TO RECIEVE UPTO 60% OFF</h2>
