@@ -381,6 +381,7 @@ $(document).ready(function(){
     $('.overlay').css('left', 0)
     $('.overlay').addClass('show')
     player.api("play");
+    ga('send', 'event', 'Videos', 'play', 'Hero Page Video');
   })
 
   // Closes on click outside
