@@ -17,6 +17,8 @@
 		<meta property="og:image" content="http://genesisaugmented.com/images/header-bg.jpg" />
 		<meta property="fb:app_id" content="1622234504755688" />
 
+		<meta name="google-site-verification" content="uyoHE6B_36C60PXCbqc3GId1A-3CPoa0NyuevCzkrJo" />
+
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/video.css" />
