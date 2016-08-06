@@ -36,22 +36,35 @@
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <script>
-	var form = document.getElementById('mc-embedded-subscribe-form');
+		var form = document.getElementById('mc-embedded-subscribe-form');
+
 		form.addEventListener('submit', function(event) {
 		event.preventDefault();
-		// form.className = "nospace";
-		//Digress when encountering a Timeout
-		setTimeout(submitForm, 1000);
-		var formSubmitted = false;
-		function submitForm() {
-			if(!formSubmitted){
-				formSubmitted = true;
-				form.submit();
-			}
-		}
-		ga('send', 'event', 'Signup Form', 'submit', {
-			hitCallback: function() {
-				form.submit();
+		var fname = document.getElementById('mce-FNAME').value;
+		var lname = document.getElementById('mce-LNAME').value;
+		var email = document.getElementById('mce-EMAIL').value;
+
+		$.ajax({
+			type: "POST",
+			url: "scripts/emailInsert.php",
+			data: {fname: fname, lname: lname, email: email},
+			success: function (response) {
+				console.log(response);
+				// form.className = "nospace";
+				//Digress when encountering a Timeout
+				setTimeout(submitForm, 1000);
+				var formSubmitted = false;
+				function submitForm() {
+					if(!formSubmitted){
+						formSubmitted = true;
+						form.submit();
+					}
+				}
+				ga('send', 'event', 'Signup Form', 'submit', {
+					hitCallback: function() {
+						form.submit();
+					}
+				});
 			}
 		});
 	});
