@@ -44,6 +44,8 @@
 		var lname = document.getElementById('mce-LNAME').value;
 		var email = document.getElementById('mce-EMAIL').value;
 
+		console.log("video status: " + played);
+
 		$.ajax({
 			type: "POST",
 			url: "scripts/emailInsert.php",
@@ -60,11 +62,21 @@
 						form.submit();
 					}
 				}
+
 				ga('send', 'event', 'Signup Form', 'submit', {
 					hitCallback: function() {
 						form.submit();
 					}
 				});
+
+				if(played == true){
+					ga('send', 'event', 'Signup and Video', 'goal', {
+						hitCallback: function() {
+							form.submit();
+						}
+					});
+				}
+
 			}
 		});
 	});

@@ -368,6 +368,7 @@ var Froogaloop = (function(){
 ////////////////////////////////////////
 // Our Script
 ////////////////////////////////////////
+var played = false;
 $(document).ready(function(){
   // Initiate FitVid.js
   $(".video-container").fitVids();
@@ -381,6 +382,7 @@ $(document).ready(function(){
     $('.overlay').css('left', 0)
     $('.overlay').addClass('show')
     player.api("play");
+    played = true;
     ga('send', 'event', 'Videos', 'play', 'Hero Page Video');
   })
 
