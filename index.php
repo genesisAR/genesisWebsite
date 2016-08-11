@@ -48,7 +48,7 @@
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1 style="font-size: 2.8em"><a href="index.html" id="logo">Augmented Reality Gaming the right way</a></h1>
+								<h1 style="font-size: 2.8em">Augmented Reality Gaming the right way</h1>
 								<!-- <hr /> -->
 								<br />
 								<p style="font-size: 0.8em; font-weight: 400; text-transform: uppercase">Experience the full extent of AR with Genesis - Plan your character lineup, then use strategy and skill to crush your opponent!</p>
