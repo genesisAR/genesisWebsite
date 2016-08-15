@@ -114,7 +114,7 @@
 									Recieve access to your Genesis Closed BETA Account with One-Click Signup. <br />
 									Simply enter your email, and press 'Subscribe'. <br /><br />
 									As soon as the launch timer hits 0, you'll be able to jump in &amp; <br />
-									experiance the future of gaming! <br />
+									experience the future of gaming! <br />
 								</p>
 
 								<?php include_once 'signup2.php'; ?>
