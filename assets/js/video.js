@@ -383,7 +383,9 @@ $(document).ready(function(){
     $('.overlay').addClass('show')
     player.api("play");
     played = true;
-    fbq('track', 'Video Play');
+
+    fbq('trackCustom', 'VideoPlay');
+
     ga('send', 'event', 'Videos', 'play', 'Hero Page Video');
   })
 

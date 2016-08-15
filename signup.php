@@ -63,8 +63,15 @@
 					}
 				}
 
-				fbq('track', 'Signup Vanilla');
-				fbq('track', 'Signup Discount');
+				fbq('track', 'Lead', {
+				    content_name: 'Signup',
+				    status: 'Discount',
+				});
+
+				fbq('track', 'Lead', {
+				    content_name: 'Signup',
+				    status: 'Vanilla',
+				});
 
 				ga('send', 'event', 'Signup Form', 'submit', {
 					hitCallback: function() {

@@ -63,8 +63,15 @@
 					}
 				}
 
-				fbq('track', 'Signup Vanilla');
-				fbq('track', 'Signup Beta');
+				fbq('track', 'CompleteRegistration', {
+				    content_name: 'Signup',
+				    status: 'Beta',
+				});
+
+				fbq('track', 'CompleteRegistration', {
+				    content_name: 'Signup',
+				    status: 'Vanilla',
+				});
 
 				ga('send', 'event', 'Signup Form', 'submit', {
 					hitCallback: function() {
