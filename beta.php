@@ -105,16 +105,16 @@
 						<div class="7u 12u(mobile)" id="content">
 							<article id="main">
 								<header>
-									<h2>REQUEST LAUNCH NOTIFICATION BELOW TO RECIEVE UPTO 60% OFF</h2>
+									<h2>ACCESS THE <strong>CLOSED BETA</strong> BY SIGNING UP BELOW</h2>
 									<p>
 										<div id="countdown" align="center"></div>
 									</p>
 								</header>
 								<p>
-									Recieve your Genesis Early Launch Notification with One-Click Signup. <br />
-									Simply enter your email, and press 'Join Now'. <br /><br />
-									With the early launch email, you will be the first to know when we launch &amp; save <br />
-									up to 60% off the future retail price. <br />
+									Recieve access to your Genesis Closed BETA Account with One-Click Signup. <br />
+									Simply enter your email, and press 'Subscribe'. <br /><br />
+									As soon as the launch timer hits 0, you'll be able to jump in &amp; <br />
+									experiance the future of gaming! <br />
 								</p>
 
 								<?php include_once 'signup.php'; ?>
@@ -169,6 +169,7 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/video.js"></script>
 			<script src="assets/js/countdown.js"></script>
+			<script>CountDownTimer('08/22/2016 12:0 PM', 'countdown');</script>
 
 	</body>
 </html>

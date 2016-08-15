@@ -169,6 +169,7 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/video.js"></script>
 			<script src="assets/js/countdown.js"></script>
+			<script>CountDownTimer('09/04/2016 12:0 PM', 'countdown');</script>
 
 	</body>
 </html>
