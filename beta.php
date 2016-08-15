@@ -117,7 +117,7 @@
 									experiance the future of gaming! <br />
 								</p>
 
-								<?php include_once 'signup.php'; ?>
+								<?php include_once 'signup2.php'; ?>
 
 							</article>
 						</div>
