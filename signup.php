@@ -63,6 +63,9 @@
 					}
 				}
 
+				fbq('track', 'Signup Vanilla');
+				fbq('track', 'Signup Discount');
+
 				ga('send', 'event', 'Signup Form', 'submit', {
 					hitCallback: function() {
 						form.submit();
