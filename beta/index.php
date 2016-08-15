@@ -20,9 +20,9 @@
 		<meta name="google-site-verification" content="uyoHE6B_36C60PXCbqc3GId1A-3CPoa0NyuevCzkrJo" />
 
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/video.css" />
-		<link rel="stylesheet" href="assets/css/countdown.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/video.css" />
+		<link rel="stylesheet" href="../assets/css/countdown.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,7 +38,7 @@
 	</head>
 	<body class="homepage">
 
-		<?php include_once "facebookSDK.php"; ?>
+		<?php include_once "../facebookSDK.php"; ?>
 
 		<div id="page-wrapper">
 
@@ -55,7 +55,7 @@
 							</header>
 							<footer>
 								<!-- <a href="#banner" class="button circled scrolly">Start</a> -->
-								<?php include_once "video.php"; ?>
+								<?php include_once "../video.php"; ?>
 
 								<div class="fb-share-button" data-href="http://genesisaugmented.com"
 										data-layout="button"
@@ -96,7 +96,7 @@
 						<div class="5u 12u(mobile) important(mobile)" id="sidebar">
 							<!-- <hr class="first" /> -->
 							<section>
-								<a href="#" class="image fit" style="padding-top: 20px;"><img src="images/gifs/b-rex.gif" alt="" /></a>
+								<a href="#" class="image fit" style="padding-top: 20px;"><img src="../images/gifs/b-rex.gif" alt="" /></a>
 								<!-- <footer>
 									<a href="#" class="button">Magna Adipiscing</a>
 								</footer> -->
@@ -117,7 +117,7 @@
 									experience the future of gaming! <br />
 								</p>
 
-								<?php include_once 'signup2.php'; ?>
+								<?php include_once '../signup2.php'; ?>
 
 							</article>
 						</div>
@@ -159,16 +159,16 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.onvisible.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.onvisible.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/video.js"></script>
-			<script src="assets/js/countdown.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/video.js"></script>
+			<script src="../assets/js/countdown.js"></script>
 			<script>CountDownTimer('08/22/2016 12:0 PM', 'countdown');</script>
 
 	</body>
