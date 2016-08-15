@@ -48,7 +48,7 @@
 
 		$.ajax({
 			type: "POST",
-			url: "scripts/emailInsert.php",
+			url: "../scripts/emailInsert.php",
 			data: {fname: fname, lname: lname, email: email},
 			success: function (response) {
 				console.log(response);
