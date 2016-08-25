@@ -384,7 +384,10 @@ $(document).ready(function(){
     player.api("play");
     played = true;
 
-    fbq('trackCustom', 'VideoPlay');
+    fbq('track', 'Lead', {
+      content_name: 'Video Lead',
+      content_category: 'Play',
+    });
 
     ga('send', 'event', 'Videos', 'play', 'Hero Page Video');
   })

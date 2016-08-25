@@ -1,11 +1,9 @@
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-  #mc_embed_signup form {padding-left: 0;}
-  .nospace {margin-left: 0; padding-left: 0;}
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+#mc_embed_signup form {padding-left: 0;}
+.nospace {margin-left: 0; padding-left: 0;}
 </style>
 <div id="mc_embed_signup">
 <form action="//genesisaugmented.us1.list-manage.com/subscribe/post?u=7d217728e53617bda27873180&amp;id=08580f1f62" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -66,11 +64,6 @@
 				fbq('track', 'CompleteRegistration', {
 				    content_name: 'Signup',
 				    status: 'Beta',
-				});
-
-				fbq('track', 'CompleteRegistration', {
-				    content_name: 'Signup',
-				    status: 'Vanilla',
 				});
 
 				ga('send', 'event', 'Signup Form', 'submit', {

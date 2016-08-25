@@ -1,0 +1,126 @@
+.store-header {
+  height: 550px !important;
+  background-image: url('assets/img/rift-banner.png') !important;
+}
+
+.store-container {
+  margin-bottom: 0;
+  background-color: #fff;
+  background-image: url('assets/img/store-bg.png') !important;
+  background-repeat: no-repeat;
+}
+
+.clear {
+  clear: both;
+}
+
+.card {
+  display: inline-block;
+  margin: 0 auto;
+  width: 30%;
+  /*min-width: 240px;*/
+  padding: 0 2% 0 0;
+  white-space: nowrap;
+  outline:none;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card .headshot {
+  background-color: transparent;
+  height: auto;
+}
+
+.card .headshot > img {
+  width: 100%;
+  height: auto;
+  max-height: 390px;
+}
+
+.card .container {
+  padding: 20px 0 15px 12px;
+  background-color: transparent;
+  position: relative;
+  z-index: 10;
+  margin-top: -100px;
+}
+
+.coming-soon .sub {
+  font-size: 22px !important;
+}
+
+.card .name {
+  text-align: left;
+  display: block;
+  font-size: 26px;
+  color: #BAA159;
+}
+
+.card .sub {
+  text-align: left;
+  display: block;
+  color: white;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1280px) {
+
+  .card .container {
+    margin-top: -80px;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  .coming-soon .sub {
+    font-size: 16px !important;
+  }
+
+  .container .sub {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 680px) {
+
+  .card .container .name {
+    font-size: 22px;
+  }
+
+  .card .container .sub {
+    font-size: 12px;
+  }
+
+  .coming-soon .name {
+    font-size: 18px !important;
+  }
+
+  .coming-soon .sub {
+    font-size: 12px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+  .card {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .card .container .name {
+    font-size: 28px;
+  }
+
+  .card .container .sub {
+    font-size: 18px;
+  }
+
+
+}

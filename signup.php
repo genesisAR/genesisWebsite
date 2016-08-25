@@ -63,14 +63,9 @@
 					}
 				}
 
-				fbq('track', 'Lead', {
+				fbq('track', 'CompleteRegistration', {
 				    content_name: 'Signup',
 				    status: 'Discount',
-				});
-
-				fbq('track', 'Lead', {
-				    content_name: 'Signup',
-				    status: 'Vanilla',
 				});
 
 				ga('send', 'event', 'Signup Form', 'submit', {
